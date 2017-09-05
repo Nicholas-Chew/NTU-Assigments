@@ -1,0 +1,18 @@
+*** Creating Trace Output File 'Blink_LED.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"blinking.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M1 "blinking.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Blink_LED.map" -o "Blink_LED.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Blink_LED.axf'
+### ADS-LD Command File: 'Blink_LED.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Blink_LED.lnp', Handle=0x000002D8
+### Writing '.lnp' file
+### ADS-LD Command file 'Blink_LED.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

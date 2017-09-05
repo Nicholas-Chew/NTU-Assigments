@@ -1,0 +1,4 @@
+--cpu Cortex-M1 ".\startup.o" "blink_led.o" --library_type=microlib --strict --scatter "ex_a.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ex_a.map" -o "ex_a.axf"

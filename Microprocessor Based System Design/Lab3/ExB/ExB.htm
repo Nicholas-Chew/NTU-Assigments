@@ -1,0 +1,241 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [C:\Users\CHEW0335\Desktop\Lab3\ExB\ExB.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image C:\Users\CHEW0335\Desktop\Lab3\ExB\ExB.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT4.0 [Build 728]: Last Updated: Wed Sep 21 17:01:36 2016
+<BR><P>
+<H3>Maximum Stack Usage =         84 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; raw2celsius &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[219e694]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[219e694]">NMI_Handler</a><BR>
+ <LI><a href="#[219e658]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[219e658]">HardFault_Handler</a><BR>
+ <LI><a href="#[219e61c]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[219e61c]">SVC_Handler</a><BR>
+ <LI><a href="#[219e5e0]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[219e5e0]">PendSV_Handler</a><BR>
+ <LI><a href="#[219e5a4]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[219e5a4]">SysTick_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[219e6d0]">Reset_Handler</a>
+ <LI><a href="#[219e694]">NMI_Handler</a>
+ <LI><a href="#[219e658]">HardFault_Handler</a>
+ <LI><a href="#[219e61c]">SVC_Handler</a>
+ <LI><a href="#[219e5e0]">PendSV_Handler</a>
+ <LI><a href="#[219e5a4]">SysTick_Handler</a>
+ <LI><a href="#[219d5b4]">main</a>
+ <LI><a href="#[219d44c]">__main</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[219d44c]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(.text)
+</UL>
+<P><STRONG><a name="[219cf9c]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[219ce70]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[219caec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[219ce34]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[219caec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[219cd44]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[219e6d0]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup.o(.text))
+
+<P><STRONG><a name="[219e694]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[219e694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219e694]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[219e658]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[219e658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219e658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[219e61c]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[219e61c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219e61c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[219e5e0]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[219e5e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219e5e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[219e5a4]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[219e5a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219e5a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
+</UL>
+<P><STRONG><a name="[219e004]"></a>wait_for_eot</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, i2c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[219de24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_with_stop
+<LI><a href="#[219de60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_byte
+<LI><a href="#[219de9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_with_start
+<LI><a href="#[219ded8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_with_stop
+<LI><a href="#[219df14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_with_start
+<LI><a href="#[219df50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_byte
+</UL>
+
+<P><STRONG><a name="[219dfc8]"></a>set_clk</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, i2c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219df8c]"></a>checkACK</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[219ded8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_with_stop
+<LI><a href="#[219df14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_with_start
+<LI><a href="#[219df50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_byte
+</UL>
+
+<P><STRONG><a name="[219df50]"></a>write_byte</STRONG> (Thumb, 34 bytes, Stack size 4 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = write_byte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219df8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkACK
+<LI><a href="#[219e004]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_for_eot
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219df14]"></a>write_with_start</STRONG> (Thumb, 38 bytes, Stack size 4 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = write_with_start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219df8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkACK
+<LI><a href="#[219e004]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_for_eot
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219ded8]"></a>write_with_stop</STRONG> (Thumb, 34 bytes, Stack size 4 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = write_with_stop
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219df8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkACK
+<LI><a href="#[219e004]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_for_eot
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219de9c]"></a>read_with_start</STRONG> (Thumb, 24 bytes, Stack size 4 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = read_with_start
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219e004]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_for_eot
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219de60]"></a>read_byte</STRONG> (Thumb, 20 bytes, Stack size 4 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = read_byte
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219e004]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_for_eot
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219de24]"></a>read_with_stop</STRONG> (Thumb, 20 bytes, Stack size 4 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = read_with_stop
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219e004]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_for_eot
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219da28]"></a>convertDigit</STRONG> (Thumb, 100 bytes, Stack size 4 bytes, seven_segment.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = convertDigit &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219d9b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d9ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;convert_for_7_seg
+</UL>
+
+<P><STRONG><a name="[219d9ec]"></a>convert_for_7_seg</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, seven_segment.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = convert_for_7_seg &rArr; convertDigit &rArr; __ARM_common_switch8
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219da28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;convertDigit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219d5f0]"></a>raw2celsius</STRONG> (Thumb, 56 bytes, Stack size 32 bytes, main3b.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = raw2celsius &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219d140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[219d5b4]"></a>main</STRONG> (Thumb, 120 bytes, Stack size 24 bytes, main3b.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = main &rArr; raw2celsius &rArr; __aeabi_idivmod &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219d5f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;raw2celsius
+<LI><a href="#[219d9ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;convert_for_7_seg
+<LI><a href="#[219de24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_with_stop
+<LI><a href="#[219de60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_byte
+<LI><a href="#[219de9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_with_start
+<LI><a href="#[219ded8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_with_stop
+<LI><a href="#[219df14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_with_start
+<LI><a href="#[219df50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;write_byte
+<LI><a href="#[219dfc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_clk
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[219d17c]"></a>__aeabi_idiv</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, idiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[219d140]"></a>__aeabi_idivmod</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, idiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = __aeabi_idivmod &rArr; __aeabi_uidivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[219cbdc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d5f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;raw2celsius
+</UL>
+
+<P><STRONG><a name="[219cc18]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[219cbdc]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219d140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
+</UL>
+
+<P><STRONG><a name="[219caec]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[219ce34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219ce70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[219cab0]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[219d9b0]"></a>__ARM_common_switch8</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, seven_segment.o(i.__ARM_common_switch8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_common_switch8
+</UL>
+<BR>[Called By]<UL><LI><a href="#[219da28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;convertDigit
+</UL>
+
+<P><STRONG><a name="[219c72c]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[219c6f0]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[219c6b4]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M1 -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" -o "tonegen.o" --omf_browse "tonegen.crf" --depend "tonegen.d" "ToneGen.c"

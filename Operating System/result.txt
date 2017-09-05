@@ -1,0 +1,2309 @@
+Scheduling interrupt handler the timer at time = 96
+	interrupts: off -> on
+
+== Tick 10 ==
+	interrupts: on -> off
+Time: 10, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+End of pending interrupts
+	interrupts: off -> on
+Scheduling interrupt handler the console read at time = 110
+Initializing address space, num pages 28, size 3584
+Initializing stack register to 3568
+Starting thread "main" at time 10
+Reading VA 0x0, size 4
+	Translate 0x0, read: *** no valid TLB entry found for this virtual page 0!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 0, vpn 0
+The corresponding TLBentry for Page 0 in TLB is 0 
+== Tick 11 ==
+	interrupts: on -> off
+Time: 11, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x0, size 4
+	Translate 0x0, read: phys addr = 0x0
+	value read = 0c000127
+At PC = 0x0: JAL 295
+
+== Tick 12 ==
+	interrupts: on -> off
+Time: 12, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4, size 4
+	Translate 0x4, read: phys addr = 0x4
+	value read = 00000000
+At PC = 0x4: SLL r0,r0,0
+
+== Tick 13 ==
+	interrupts: on -> off
+Time: 13, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x49c, size 4
+	Translate 0x49c, read: *** no valid TLB entry found for this virtual page 9!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 1, vpn 9
+The corresponding TLBentry for Page 9 in TLB is 1 
+== Tick 14 ==
+	interrupts: on -> off
+Time: 14, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x49c, size 4
+	Translate 0x49c, read: phys addr = 0x9c
+	value read = 27bdffd0
+At PC = 0x49c: ADDIU r29,r29,-48
+
+== Tick 15 ==
+	interrupts: on -> off
+Time: 15, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4a0, size 4
+	Translate 0x4a0, read: phys addr = 0xa0
+	value read = afbf002c
+At PC = 0x4a0: SW r31,44(r29)
+Writing VA 0xdec, size 4, value 0x8
+	Translate 0xdec, write: *** no valid TLB entry found for this virtual page 27!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 2, vpn 27
+The corresponding TLBentry for Page 27 in TLB is 2 
+== Tick 16 ==
+	interrupts: on -> off
+Time: 16, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4a0, size 4
+	Translate 0x4a0, read: phys addr = 0xa0
+	value read = afbf002c
+At PC = 0x4a0: SW r31,44(r29)
+Writing VA 0xdec, size 4, value 0x8
+	Translate 0xdec, write: phys addr = 0x16c
+
+== Tick 17 ==
+	interrupts: on -> off
+Time: 17, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4a4, size 4
+	Translate 0x4a4, read: phys addr = 0xa4
+	value read = afbe0028
+At PC = 0x4a4: SW r30,40(r29)
+Writing VA 0xde8, size 4, value 0x0
+	Translate 0xde8, write: phys addr = 0x168
+
+== Tick 18 ==
+	interrupts: on -> off
+Time: 18, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4a8, size 4
+	Translate 0x4a8, read: phys addr = 0xa8
+	value read = 0c000030
+At PC = 0x4a8: JAL 48
+
+== Tick 19 ==
+	interrupts: on -> off
+Time: 19, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4ac, size 4
+	Translate 0x4ac, read: phys addr = 0xac
+	value read = 03a0f021
+At PC = 0x4ac: ADDU r30,r29,r0
+
+== Tick 20 ==
+	interrupts: on -> off
+Time: 20, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0xc0, size 4
+	Translate 0xc0, read: *** no valid TLB entry found for this virtual page 1!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 3, vpn 1
+The corresponding TLBentry for Page 1 in TLB is 0 
+== Tick 21 ==
+	interrupts: on -> off
+Time: 21, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0xc0, size 4
+	Translate 0xc0, read: phys addr = 0x1c0
+	value read = 03e00008
+At PC = 0xc0: JR r0,r31
+
+== Tick 22 ==
+	interrupts: on -> off
+Time: 22, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0xc4, size 4
+	Translate 0xc4, read: phys addr = 0x1c4
+	value read = 00000000
+At PC = 0xc4: SLL r0,r0,0
+
+== Tick 23 ==
+	interrupts: on -> off
+Time: 23, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b0, size 4
+	Translate 0x4b0, read: phys addr = 0xb0
+	value read = afc00010
+At PC = 0x4b0: SW r0,16(r30)
+Writing VA 0xdd0, size 4, value 0x0
+	Translate 0xdd0, write: phys addr = 0x150
+
+== Tick 24 ==
+	interrupts: on -> off
+Time: 24, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b4, size 4
+	Translate 0x4b4, read: phys addr = 0xb4
+	value read = 8fc20010
+At PC = 0x4b4: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0x150
+	value read = 00000000
+
+== Tick 25 ==
+	interrupts: on -> off
+Time: 25, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b8, size 4
+	Translate 0x4b8, read: phys addr = 0xb8
+	value read = 00000000
+At PC = 0x4b8: SLL r0,r0,0
+
+== Tick 26 ==
+	interrupts: on -> off
+Time: 26, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4bc, size 4
+	Translate 0x4bc, read: phys addr = 0xbc
+	value read = 28430002
+At PC = 0x4bc: SLTI r3,r2,2
+
+== Tick 27 ==
+	interrupts: on -> off
+Time: 27, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c0, size 4
+	Translate 0x4c0, read: phys addr = 0xc0
+	value read = 14600003
+At PC = 0x4c0: BNE r3,r0,3
+
+== Tick 28 ==
+	interrupts: on -> off
+Time: 28, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c4, size 4
+	Translate 0x4c4, read: phys addr = 0xc4
+	value read = 00000000
+At PC = 0x4c4: SLL r0,r0,0
+
+== Tick 29 ==
+	interrupts: on -> off
+Time: 29, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4d0, size 4
+	Translate 0x4d0, read: phys addr = 0xd0
+	value read = 3c040000
+At PC = 0x4d0: LUI r4,0
+Executing: LUI r4,0
+
+== Tick 30 ==
+	interrupts: on -> off
+Time: 30, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4d4, size 4
+	Translate 0x4d4, read: phys addr = 0xd4
+	value read = 0c00000c
+At PC = 0x4d4: JAL 12
+
+== Tick 31 ==
+	interrupts: on -> off
+Time: 31, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4d8, size 4
+	Translate 0x4d8, read: phys addr = 0xd8
+	value read = 24840598
+At PC = 0x4d8: ADDIU r4,r4,1432
+
+== Tick 32 ==
+	interrupts: on -> off
+Time: 32, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x30, size 4
+	Translate 0x30, read: *** no valid TLB entry found for this virtual page 0!
+Exception: page fault/no TLB entry
+The corresponding TLBentry for Page 0 in TLB is 1 
+== Tick 33 ==
+	interrupts: on -> off
+Time: 33, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x30, size 4
+	Translate 0x30, read: phys addr = 0x30
+	value read = 24020002
+At PC = 0x30: ADDIU r2,r0,2
+
+== Tick 34 ==
+	interrupts: on -> off
+Time: 34, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x34, size 4
+	Translate 0x34, read: phys addr = 0x34
+	value read = 0000000c
+At PC = 0x34: SYSCALL
+Exception: syscall
+SyscallExec(), initiated by user program main #0.
+	Translate 0x598, read: *** no valid TLB entry found for this virtual page 11!
+paging in: pid 0, phyPage 0, vpn 11
+The corresponding TLBentry for Page 11 in TLB is 1 	Translate 0x598, read: phys addr = 0x18
+	Translate 0x599, read: phys addr = 0x19
+	Translate 0x59a, read: phys addr = 0x1a
+	Translate 0x59b, read: phys addr = 0x1b
+	Translate 0x59c, read: phys addr = 0x1c
+	Translate 0x59d, read: phys addr = 0x1d
+	Translate 0x59e, read: phys addr = 0x1e
+	Translate 0x59f, read: phys addr = 0x1f
+	Translate 0x5a0, read: phys addr = 0x20
+	Translate 0x5a1, read: phys addr = 0x21
+	Translate 0x5a2, read: phys addr = 0x22
+	Translate 0x598, read: phys addr = 0x18
+	Translate 0x599, read: phys addr = 0x19
+	Translate 0x59a, read: phys addr = 0x1a
+	Translate 0x59b, read: phys addr = 0x1b
+	Translate 0x59c, read: phys addr = 0x1c
+	Translate 0x59d, read: phys addr = 0x1d
+	Translate 0x59e, read: phys addr = 0x1e
+	Translate 0x59f, read: phys addr = 0x1f
+	Translate 0x5a0, read: phys addr = 0x20
+	Translate 0x5a1, read: phys addr = 0x21
+	Translate 0x5a2, read: phys addr = 0x22
+
+== Tick 35 ==
+	interrupts: on -> off
+Time: 35, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x38, size 4
+	Translate 0x38, read: *** no valid TLB entry found for this virtual page 0!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 1, vpn 0
+The corresponding TLBentry for Page 0 in TLB is 2 
+== Tick 36 ==
+	interrupts: on -> off
+Time: 36, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x38, size 4
+	Translate 0x38, read: phys addr = 0xb8
+	value read = 03e00008
+At PC = 0x38: JR r0,r31
+
+== Tick 37 ==
+	interrupts: on -> off
+Time: 37, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x3c, size 4
+	Translate 0x3c, read: phys addr = 0xbc
+	value read = 00000000
+At PC = 0x3c: SLL r0,r0,0
+
+== Tick 38 ==
+	interrupts: on -> off
+Time: 38, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4dc, size 4
+	Translate 0x4dc, read: *** no valid TLB entry found for this virtual page 9!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 3, vpn 9
+The corresponding TLBentry for Page 9 in TLB is 0 
+== Tick 39 ==
+	interrupts: on -> off
+Time: 39, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4dc, size 4
+	Translate 0x4dc, read: phys addr = 0x1dc
+	value read = 8fc30010
+At PC = 0x4dc: LW r3,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: *** no valid TLB entry found for this virtual page 27!
+Exception: page fault/no TLB entry
+The corresponding TLBentry for Page 27 in TLB is 1 
+== Tick 40 ==
+	interrupts: on -> off
+Time: 40, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4dc, size 4
+	Translate 0x4dc, read: phys addr = 0x1dc
+	value read = 8fc30010
+At PC = 0x4dc: LW r3,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0x150
+	value read = 00000000
+
+== Tick 41 ==
+	interrupts: on -> off
+Time: 41, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4e0, size 4
+	Translate 0x4e0, read: phys addr = 0x1e0
+	value read = 00000000
+At PC = 0x4e0: SLL r0,r0,0
+
+== Tick 42 ==
+	interrupts: on -> off
+Time: 42, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4e4, size 4
+	Translate 0x4e4, read: phys addr = 0x1e4
+	value read = 00602021
+At PC = 0x4e4: ADDU r4,r3,r0
+
+== Tick 43 ==
+	interrupts: on -> off
+Time: 43, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4e8, size 4
+	Translate 0x4e8, read: phys addr = 0x1e8
+	value read = 00041880
+At PC = 0x4e8: SLL r3,r4,2
+
+== Tick 44 ==
+	interrupts: on -> off
+Time: 44, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4ec, size 4
+	Translate 0x4ec, read: phys addr = 0x1ec
+	value read = 27c40018
+At PC = 0x4ec: ADDIU r4,r30,24
+
+== Tick 45 ==
+	interrupts: on -> off
+Time: 45, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4f0, size 4
+	Translate 0x4f0, read: phys addr = 0x1f0
+	value read = 00831821
+At PC = 0x4f0: ADDU r3,r4,r3
+
+== Tick 46 ==
+	interrupts: on -> off
+Time: 46, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4f4, size 4
+	Translate 0x4f4, read: phys addr = 0x1f4
+	value read = ac620000
+At PC = 0x4f4: SW r2,0(r3)
+Writing VA 0xdd8, size 4, value 0xffffffff
+	Translate 0xdd8, write: phys addr = 0x158
+
+== Tick 47 ==
+	interrupts: on -> off
+Time: 47, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4f8, size 4
+	Translate 0x4f8, read: phys addr = 0x1f8
+	value read = 8fc20010
+At PC = 0x4f8: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0x150
+	value read = 00000000
+
+== Tick 48 ==
+	interrupts: on -> off
+Time: 48, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4fc, size 4
+	Translate 0x4fc, read: phys addr = 0x1fc
+	value read = 00000000
+At PC = 0x4fc: SLL r0,r0,0
+
+== Tick 49 ==
+	interrupts: on -> off
+Time: 49, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x500, size 4
+	Translate 0x500, read: *** no valid TLB entry found for this virtual page 10!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 0, vpn 10
+The corresponding TLBentry for Page 10 in TLB is 2 
+== Tick 50 ==
+	interrupts: on -> off
+Time: 50, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x500, size 4
+	Translate 0x500, read: phys addr = 0x0
+	value read = 24430001
+At PC = 0x500: ADDIU r3,r2,1
+
+== Tick 51 ==
+	interrupts: on -> off
+Time: 51, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x504, size 4
+	Translate 0x504, read: phys addr = 0x4
+	value read = 0800012d
+At PC = 0x504: J 301
+
+== Tick 52 ==
+	interrupts: on -> off
+Time: 52, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x508, size 4
+	Translate 0x508, read: phys addr = 0x8
+	value read = afc30010
+At PC = 0x508: SW r3,16(r30)
+Writing VA 0xdd0, size 4, value 0x1
+	Translate 0xdd0, write: phys addr = 0x150
+
+== Tick 53 ==
+	interrupts: on -> off
+Time: 53, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b4, size 4
+	Translate 0x4b4, read: phys addr = 0x1b4
+	value read = 8fc20010
+At PC = 0x4b4: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0x150
+	value read = 00000001
+
+== Tick 54 ==
+	interrupts: on -> off
+Time: 54, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b8, size 4
+	Translate 0x4b8, read: phys addr = 0x1b8
+	value read = 00000000
+At PC = 0x4b8: SLL r0,r0,0
+
+== Tick 55 ==
+	interrupts: on -> off
+Time: 55, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4bc, size 4
+	Translate 0x4bc, read: phys addr = 0x1bc
+	value read = 28430002
+At PC = 0x4bc: SLTI r3,r2,2
+
+== Tick 56 ==
+	interrupts: on -> off
+Time: 56, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c0, size 4
+	Translate 0x4c0, read: phys addr = 0x1c0
+	value read = 14600003
+At PC = 0x4c0: BNE r3,r0,3
+
+== Tick 57 ==
+	interrupts: on -> off
+Time: 57, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c4, size 4
+	Translate 0x4c4, read: phys addr = 0x1c4
+	value read = 00000000
+At PC = 0x4c4: SLL r0,r0,0
+
+== Tick 58 ==
+	interrupts: on -> off
+Time: 58, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4d0, size 4
+	Translate 0x4d0, read: phys addr = 0x1d0
+	value read = 3c040000
+At PC = 0x4d0: LUI r4,0
+Executing: LUI r4,0
+
+== Tick 59 ==
+	interrupts: on -> off
+Time: 59, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4d4, size 4
+	Translate 0x4d4, read: phys addr = 0x1d4
+	value read = 0c00000c
+At PC = 0x4d4: JAL 12
+
+== Tick 60 ==
+	interrupts: on -> off
+Time: 60, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4d8, size 4
+	Translate 0x4d8, read: phys addr = 0x1d8
+	value read = 24840598
+At PC = 0x4d8: ADDIU r4,r4,1432
+
+== Tick 61 ==
+	interrupts: on -> off
+Time: 61, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x30, size 4
+	Translate 0x30, read: *** no valid TLB entry found for this virtual page 0!
+Exception: page fault/no TLB entry
+The corresponding TLBentry for Page 0 in TLB is 0 
+== Tick 62 ==
+	interrupts: on -> off
+Time: 62, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x30, size 4
+	Translate 0x30, read: phys addr = 0xb0
+	value read = 24020002
+At PC = 0x30: ADDIU r2,r0,2
+
+== Tick 63 ==
+	interrupts: on -> off
+Time: 63, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x34, size 4
+	Translate 0x34, read: phys addr = 0xb4
+	value read = 0000000c
+At PC = 0x34: SYSCALL
+Exception: syscall
+SyscallExec(), initiated by user program main #0.
+	Translate 0x598, read: *** no valid TLB entry found for this virtual page 11!
+paging in: pid 0, phyPage 3, vpn 11
+The corresponding TLBentry for Page 11 in TLB is 1 	Translate 0x598, read: phys addr = 0x198
+	Translate 0x599, read: phys addr = 0x199
+	Translate 0x59a, read: phys addr = 0x19a
+	Translate 0x59b, read: phys addr = 0x19b
+	Translate 0x59c, read: phys addr = 0x19c
+	Translate 0x59d, read: phys addr = 0x19d
+	Translate 0x59e, read: phys addr = 0x19e
+	Translate 0x59f, read: phys addr = 0x19f
+	Translate 0x5a0, read: phys addr = 0x1a0
+	Translate 0x5a1, read: phys addr = 0x1a1
+	Translate 0x5a2, read: phys addr = 0x1a2
+	Translate 0x598, read: phys addr = 0x198
+	Translate 0x599, read: phys addr = 0x199
+	Translate 0x59a, read: phys addr = 0x19a
+	Translate 0x59b, read: phys addr = 0x19b
+	Translate 0x59c, read: phys addr = 0x19c
+	Translate 0x59d, read: phys addr = 0x19d
+	Translate 0x59e, read: phys addr = 0x19e
+	Translate 0x59f, read: phys addr = 0x19f
+	Translate 0x5a0, read: phys addr = 0x1a0
+	Translate 0x5a1, read: phys addr = 0x1a1
+	Translate 0x5a2, read: phys addr = 0x1a2
+
+== Tick 64 ==
+	interrupts: on -> off
+Time: 64, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x38, size 4
+	Translate 0x38, read: phys addr = 0xb8
+	value read = 03e00008
+At PC = 0x38: JR r0,r31
+
+== Tick 65 ==
+	interrupts: on -> off
+Time: 65, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x3c, size 4
+	Translate 0x3c, read: phys addr = 0xbc
+	value read = 00000000
+At PC = 0x3c: SLL r0,r0,0
+
+== Tick 66 ==
+	interrupts: on -> off
+Time: 66, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4dc, size 4
+	Translate 0x4dc, read: *** no valid TLB entry found for this virtual page 9!
+Exception: page fault/no TLB entry
+paging out: pid 0, phyPage 2, vpn 27
+paging in: pid 0, phyPage 2, vpn 9
+The corresponding TLBentry for Page 9 in TLB is 2 
+== Tick 67 ==
+	interrupts: on -> off
+Time: 67, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4dc, size 4
+	Translate 0x4dc, read: phys addr = 0x15c
+	value read = 8fc30010
+At PC = 0x4dc: LW r3,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: *** no valid TLB entry found for this virtual page 27!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 1, vpn 27
+The corresponding TLBentry for Page 27 in TLB is 0 
+== Tick 68 ==
+	interrupts: on -> off
+Time: 68, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4dc, size 4
+	Translate 0x4dc, read: phys addr = 0x15c
+	value read = 8fc30010
+At PC = 0x4dc: LW r3,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000001
+
+== Tick 69 ==
+	interrupts: on -> off
+Time: 69, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4e0, size 4
+	Translate 0x4e0, read: phys addr = 0x160
+	value read = 00000000
+At PC = 0x4e0: SLL r0,r0,0
+
+== Tick 70 ==
+	interrupts: on -> off
+Time: 70, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4e4, size 4
+	Translate 0x4e4, read: phys addr = 0x164
+	value read = 00602021
+At PC = 0x4e4: ADDU r4,r3,r0
+
+== Tick 71 ==
+	interrupts: on -> off
+Time: 71, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4e8, size 4
+	Translate 0x4e8, read: phys addr = 0x168
+	value read = 00041880
+At PC = 0x4e8: SLL r3,r4,2
+
+== Tick 72 ==
+	interrupts: on -> off
+Time: 72, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4ec, size 4
+	Translate 0x4ec, read: phys addr = 0x16c
+	value read = 27c40018
+At PC = 0x4ec: ADDIU r4,r30,24
+
+== Tick 73 ==
+	interrupts: on -> off
+Time: 73, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4f0, size 4
+	Translate 0x4f0, read: phys addr = 0x170
+	value read = 00831821
+At PC = 0x4f0: ADDU r3,r4,r3
+
+== Tick 74 ==
+	interrupts: on -> off
+Time: 74, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4f4, size 4
+	Translate 0x4f4, read: phys addr = 0x174
+	value read = ac620000
+At PC = 0x4f4: SW r2,0(r3)
+Writing VA 0xddc, size 4, value 0xffffffff
+	Translate 0xddc, write: phys addr = 0xdc
+
+== Tick 75 ==
+	interrupts: on -> off
+Time: 75, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4f8, size 4
+	Translate 0x4f8, read: phys addr = 0x178
+	value read = 8fc20010
+At PC = 0x4f8: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000001
+
+== Tick 76 ==
+	interrupts: on -> off
+Time: 76, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4fc, size 4
+	Translate 0x4fc, read: phys addr = 0x17c
+	value read = 00000000
+At PC = 0x4fc: SLL r0,r0,0
+
+== Tick 77 ==
+	interrupts: on -> off
+Time: 77, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x500, size 4
+	Translate 0x500, read: *** no valid TLB entry found for this virtual page 10!
+Exception: page fault/no TLB entry
+The corresponding TLBentry for Page 10 in TLB is 1 
+== Tick 78 ==
+	interrupts: on -> off
+Time: 78, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x500, size 4
+	Translate 0x500, read: phys addr = 0x0
+	value read = 24430001
+At PC = 0x500: ADDIU r3,r2,1
+
+== Tick 79 ==
+	interrupts: on -> off
+Time: 79, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x504, size 4
+	Translate 0x504, read: phys addr = 0x4
+	value read = 0800012d
+At PC = 0x504: J 301
+
+== Tick 80 ==
+	interrupts: on -> off
+Time: 80, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x508, size 4
+	Translate 0x508, read: phys addr = 0x8
+	value read = afc30010
+At PC = 0x508: SW r3,16(r30)
+Writing VA 0xdd0, size 4, value 0x2
+	Translate 0xdd0, write: phys addr = 0xd0
+
+== Tick 81 ==
+	interrupts: on -> off
+Time: 81, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b4, size 4
+	Translate 0x4b4, read: phys addr = 0x134
+	value read = 8fc20010
+At PC = 0x4b4: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000002
+
+== Tick 82 ==
+	interrupts: on -> off
+Time: 82, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4b8, size 4
+	Translate 0x4b8, read: phys addr = 0x138
+	value read = 00000000
+At PC = 0x4b8: SLL r0,r0,0
+
+== Tick 83 ==
+	interrupts: on -> off
+Time: 83, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4bc, size 4
+	Translate 0x4bc, read: phys addr = 0x13c
+	value read = 28430002
+At PC = 0x4bc: SLTI r3,r2,2
+
+== Tick 84 ==
+	interrupts: on -> off
+Time: 84, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c0, size 4
+	Translate 0x4c0, read: phys addr = 0x140
+	value read = 14600003
+At PC = 0x4c0: BNE r3,r0,3
+
+== Tick 85 ==
+	interrupts: on -> off
+Time: 85, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c4, size 4
+	Translate 0x4c4, read: phys addr = 0x144
+	value read = 00000000
+At PC = 0x4c4: SLL r0,r0,0
+
+== Tick 86 ==
+	interrupts: on -> off
+Time: 86, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c8, size 4
+	Translate 0x4c8, read: phys addr = 0x148
+	value read = 08000143
+At PC = 0x4c8: J 323
+
+== Tick 87 ==
+	interrupts: on -> off
+Time: 87, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4cc, size 4
+	Translate 0x4cc, read: phys addr = 0x14c
+	value read = 00000000
+At PC = 0x4cc: SLL r0,r0,0
+
+== Tick 88 ==
+	interrupts: on -> off
+Time: 88, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x50c, size 4
+	Translate 0x50c, read: phys addr = 0xc
+	value read = 00000000
+At PC = 0x50c: SLL r0,r0,0
+
+== Tick 89 ==
+	interrupts: on -> off
+Time: 89, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x510, size 4
+	Translate 0x510, read: phys addr = 0x10
+	value read = afc00010
+At PC = 0x510: SW r0,16(r30)
+Writing VA 0xdd0, size 4, value 0x0
+	Translate 0xdd0, write: phys addr = 0xd0
+
+== Tick 90 ==
+	interrupts: on -> off
+Time: 90, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x514, size 4
+	Translate 0x514, read: phys addr = 0x14
+	value read = 8fc20010
+At PC = 0x514: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000000
+
+== Tick 91 ==
+	interrupts: on -> off
+Time: 91, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x518, size 4
+	Translate 0x518, read: phys addr = 0x18
+	value read = 00000000
+At PC = 0x518: SLL r0,r0,0
+
+== Tick 92 ==
+	interrupts: on -> off
+Time: 92, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x51c, size 4
+	Translate 0x51c, read: phys addr = 0x1c
+	value read = 28430002
+At PC = 0x51c: SLTI r3,r2,2
+
+== Tick 93 ==
+	interrupts: on -> off
+Time: 93, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x520, size 4
+	Translate 0x520, read: phys addr = 0x20
+	value read = 14600003
+At PC = 0x520: BNE r3,r0,3
+
+== Tick 94 ==
+	interrupts: on -> off
+Time: 94, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x524, size 4
+	Translate 0x524, read: phys addr = 0x24
+	value read = 00000000
+At PC = 0x524: SLL r0,r0,0
+
+== Tick 95 ==
+	interrupts: on -> off
+Time: 95, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x530, size 4
+	Translate 0x530, read: phys addr = 0x30
+	value read = 8fc20010
+At PC = 0x530: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000000
+
+== Tick 96 ==
+	interrupts: on -> off
+Time: 96, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 96
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+Invoking interrupt handler for the timer at time 96
+Scheduling interrupt handler the timer at time = 105
+Time: 96, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler timer, scheduled at 105
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+	interrupts: off -> on
+	interrupts: on -> off
+Yielding thread main #0
+	interrupts: off -> on
+
+== Tick 106 ==
+	interrupts: on -> off
+Time: 106, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler timer, scheduled at 105
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+End of pending interrupts
+Invoking interrupt handler for the timer at time 105
+Scheduling interrupt handler the timer at time = 185
+Time: 106, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+End of pending interrupts
+	interrupts: off -> on
+	interrupts: on -> off
+Yielding thread main #0
+	interrupts: off -> on
+
+== Tick 116 ==
+	interrupts: on -> off
+Time: 116, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a578)
+Interrupt handler console read, scheduled at 110
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+End of pending interrupts
+Invoking interrupt handler for the console read at time 110
+Scheduling interrupt handler the console read at time = 216
+Time: 116, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x534, size 4
+	Translate 0x534, read: phys addr = 0x34
+	value read = 00000000
+At PC = 0x534: SLL r0,r0,0
+
+== Tick 117 ==
+	interrupts: on -> off
+Time: 117, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x538, size 4
+	Translate 0x538, read: phys addr = 0x38
+	value read = 00401821
+At PC = 0x538: ADDU r3,r2,r0
+
+== Tick 118 ==
+	interrupts: on -> off
+Time: 118, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x53c, size 4
+	Translate 0x53c, read: phys addr = 0x3c
+	value read = 00031080
+At PC = 0x53c: SLL r2,r3,2
+
+== Tick 119 ==
+	interrupts: on -> off
+Time: 119, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x540, size 4
+	Translate 0x540, read: phys addr = 0x40
+	value read = 27c30018
+At PC = 0x540: ADDIU r3,r30,24
+
+== Tick 120 ==
+	interrupts: on -> off
+Time: 120, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x544, size 4
+	Translate 0x544, read: phys addr = 0x44
+	value read = 00621021
+At PC = 0x544: ADDU r2,r3,r2
+
+== Tick 121 ==
+	interrupts: on -> off
+Time: 121, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x548, size 4
+	Translate 0x548, read: phys addr = 0x48
+	value read = 8c440000
+At PC = 0x548: LW r4,0(r2)
+Reading VA 0xdd8, size 4
+	Translate 0xdd8, read: phys addr = 0xd8
+	value read = ffffffff
+
+== Tick 122 ==
+	interrupts: on -> off
+Time: 122, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x54c, size 4
+	Translate 0x54c, read: phys addr = 0x4c
+	value read = 0c000010
+At PC = 0x54c: JAL 16
+
+== Tick 123 ==
+	interrupts: on -> off
+Time: 123, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x550, size 4
+	Translate 0x550, read: phys addr = 0x50
+	value read = 00000000
+At PC = 0x550: SLL r0,r0,0
+
+== Tick 124 ==
+	interrupts: on -> off
+Time: 124, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x40, size 4
+	Translate 0x40, read: *** no valid TLB entry found for this virtual page 0!
+Exception: page fault/no TLB entry
+paging in: pid 0, phyPage 3, vpn 0
+The corresponding TLBentry for Page 0 in TLB is 2 
+== Tick 125 ==
+	interrupts: on -> off
+Time: 125, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x40, size 4
+	Translate 0x40, read: phys addr = 0x1c0
+	value read = 24020003
+At PC = 0x40: ADDIU r2,r0,3
+
+== Tick 126 ==
+	interrupts: on -> off
+Time: 126, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x44, size 4
+	Translate 0x44, read: phys addr = 0x1c4
+	value read = 0000000c
+At PC = 0x44: SYSCALL
+Exception: syscall
+SyscallJoin(), initiated by user program main #0.
+
+== Tick 127 ==
+	interrupts: on -> off
+Time: 127, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x48, size 4
+	Translate 0x48, read: phys addr = 0x1c8
+	value read = 03e00008
+At PC = 0x48: JR r0,r31
+
+== Tick 128 ==
+	interrupts: on -> off
+Time: 128, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c, size 4
+	Translate 0x4c, read: phys addr = 0x1cc
+	value read = 00000000
+At PC = 0x4c: SLL r0,r0,0
+
+== Tick 129 ==
+	interrupts: on -> off
+Time: 129, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x554, size 4
+	Translate 0x554, read: phys addr = 0x54
+	value read = afc20020
+At PC = 0x554: SW r2,32(r30)
+Writing VA 0xde0, size 4, value 0xffffffff
+	Translate 0xde0, write: phys addr = 0xe0
+
+== Tick 130 ==
+	interrupts: on -> off
+Time: 130, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x558, size 4
+	Translate 0x558, read: phys addr = 0x58
+	value read = 8fc20010
+At PC = 0x558: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000000
+
+== Tick 131 ==
+	interrupts: on -> off
+Time: 131, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x55c, size 4
+	Translate 0x55c, read: phys addr = 0x5c
+	value read = 00000000
+At PC = 0x55c: SLL r0,r0,0
+
+== Tick 132 ==
+	interrupts: on -> off
+Time: 132, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x560, size 4
+	Translate 0x560, read: phys addr = 0x60
+	value read = 24430001
+At PC = 0x560: ADDIU r3,r2,1
+
+== Tick 133 ==
+	interrupts: on -> off
+Time: 133, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x564, size 4
+	Translate 0x564, read: phys addr = 0x64
+	value read = 08000145
+At PC = 0x564: J 325
+
+== Tick 134 ==
+	interrupts: on -> off
+Time: 134, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x568, size 4
+	Translate 0x568, read: phys addr = 0x68
+	value read = afc30010
+At PC = 0x568: SW r3,16(r30)
+Writing VA 0xdd0, size 4, value 0x1
+	Translate 0xdd0, write: phys addr = 0xd0
+
+== Tick 135 ==
+	interrupts: on -> off
+Time: 135, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x514, size 4
+	Translate 0x514, read: phys addr = 0x14
+	value read = 8fc20010
+At PC = 0x514: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000001
+
+== Tick 136 ==
+	interrupts: on -> off
+Time: 136, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x518, size 4
+	Translate 0x518, read: phys addr = 0x18
+	value read = 00000000
+At PC = 0x518: SLL r0,r0,0
+
+== Tick 137 ==
+	interrupts: on -> off
+Time: 137, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x51c, size 4
+	Translate 0x51c, read: phys addr = 0x1c
+	value read = 28430002
+At PC = 0x51c: SLTI r3,r2,2
+
+== Tick 138 ==
+	interrupts: on -> off
+Time: 138, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x520, size 4
+	Translate 0x520, read: phys addr = 0x20
+	value read = 14600003
+At PC = 0x520: BNE r3,r0,3
+
+== Tick 139 ==
+	interrupts: on -> off
+Time: 139, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x524, size 4
+	Translate 0x524, read: phys addr = 0x24
+	value read = 00000000
+At PC = 0x524: SLL r0,r0,0
+
+== Tick 140 ==
+	interrupts: on -> off
+Time: 140, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x530, size 4
+	Translate 0x530, read: phys addr = 0x30
+	value read = 8fc20010
+At PC = 0x530: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000001
+
+== Tick 141 ==
+	interrupts: on -> off
+Time: 141, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x534, size 4
+	Translate 0x534, read: phys addr = 0x34
+	value read = 00000000
+At PC = 0x534: SLL r0,r0,0
+
+== Tick 142 ==
+	interrupts: on -> off
+Time: 142, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x538, size 4
+	Translate 0x538, read: phys addr = 0x38
+	value read = 00401821
+At PC = 0x538: ADDU r3,r2,r0
+
+== Tick 143 ==
+	interrupts: on -> off
+Time: 143, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x53c, size 4
+	Translate 0x53c, read: phys addr = 0x3c
+	value read = 00031080
+At PC = 0x53c: SLL r2,r3,2
+
+== Tick 144 ==
+	interrupts: on -> off
+Time: 144, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x540, size 4
+	Translate 0x540, read: phys addr = 0x40
+	value read = 27c30018
+At PC = 0x540: ADDIU r3,r30,24
+
+== Tick 145 ==
+	interrupts: on -> off
+Time: 145, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x544, size 4
+	Translate 0x544, read: phys addr = 0x44
+	value read = 00621021
+At PC = 0x544: ADDU r2,r3,r2
+
+== Tick 146 ==
+	interrupts: on -> off
+Time: 146, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x548, size 4
+	Translate 0x548, read: phys addr = 0x48
+	value read = 8c440000
+At PC = 0x548: LW r4,0(r2)
+Reading VA 0xddc, size 4
+	Translate 0xddc, read: phys addr = 0xdc
+	value read = ffffffff
+
+== Tick 147 ==
+	interrupts: on -> off
+Time: 147, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x54c, size 4
+	Translate 0x54c, read: phys addr = 0x4c
+	value read = 0c000010
+At PC = 0x54c: JAL 16
+
+== Tick 148 ==
+	interrupts: on -> off
+Time: 148, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x550, size 4
+	Translate 0x550, read: phys addr = 0x50
+	value read = 00000000
+At PC = 0x550: SLL r0,r0,0
+
+== Tick 149 ==
+	interrupts: on -> off
+Time: 149, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x40, size 4
+	Translate 0x40, read: phys addr = 0x1c0
+	value read = 24020003
+At PC = 0x40: ADDIU r2,r0,3
+
+== Tick 150 ==
+	interrupts: on -> off
+Time: 150, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x44, size 4
+	Translate 0x44, read: phys addr = 0x1c4
+	value read = 0000000c
+At PC = 0x44: SYSCALL
+Exception: syscall
+SyscallJoin(), initiated by user program main #0.
+
+== Tick 151 ==
+	interrupts: on -> off
+Time: 151, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x48, size 4
+	Translate 0x48, read: phys addr = 0x1c8
+	value read = 03e00008
+At PC = 0x48: JR r0,r31
+
+== Tick 152 ==
+	interrupts: on -> off
+Time: 152, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x4c, size 4
+	Translate 0x4c, read: phys addr = 0x1cc
+	value read = 00000000
+At PC = 0x4c: SLL r0,r0,0
+
+== Tick 153 ==
+	interrupts: on -> off
+Time: 153, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x554, size 4
+	Translate 0x554, read: phys addr = 0x54
+	value read = afc20020
+At PC = 0x554: SW r2,32(r30)
+Writing VA 0xde0, size 4, value 0xffffffff
+	Translate 0xde0, write: phys addr = 0xe0
+
+== Tick 154 ==
+	interrupts: on -> off
+Time: 154, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x558, size 4
+	Translate 0x558, read: phys addr = 0x58
+	value read = 8fc20010
+At PC = 0x558: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000001
+
+== Tick 155 ==
+	interrupts: on -> off
+Time: 155, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x55c, size 4
+	Translate 0x55c, read: phys addr = 0x5c
+	value read = 00000000
+At PC = 0x55c: SLL r0,r0,0
+
+== Tick 156 ==
+	interrupts: on -> off
+Time: 156, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x560, size 4
+	Translate 0x560, read: phys addr = 0x60
+	value read = 24430001
+At PC = 0x560: ADDIU r3,r2,1
+
+== Tick 157 ==
+	interrupts: on -> off
+Time: 157, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x564, size 4
+	Translate 0x564, read: phys addr = 0x64
+	value read = 08000145
+At PC = 0x564: J 325
+
+== Tick 158 ==
+	interrupts: on -> off
+Time: 158, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x568, size 4
+	Translate 0x568, read: phys addr = 0x68
+	value read = afc30010
+At PC = 0x568: SW r3,16(r30)
+Writing VA 0xdd0, size 4, value 0x2
+	Translate 0xdd0, write: phys addr = 0xd0
+
+== Tick 159 ==
+	interrupts: on -> off
+Time: 159, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x514, size 4
+	Translate 0x514, read: phys addr = 0x14
+	value read = 8fc20010
+At PC = 0x514: LW r2,16(r30)
+Reading VA 0xdd0, size 4
+	Translate 0xdd0, read: phys addr = 0xd0
+	value read = 00000002
+
+== Tick 160 ==
+	interrupts: on -> off
+Time: 160, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x518, size 4
+	Translate 0x518, read: phys addr = 0x18
+	value read = 00000000
+At PC = 0x518: SLL r0,r0,0
+
+== Tick 161 ==
+	interrupts: on -> off
+Time: 161, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x51c, size 4
+	Translate 0x51c, read: phys addr = 0x1c
+	value read = 28430002
+At PC = 0x51c: SLTI r3,r2,2
+
+== Tick 162 ==
+	interrupts: on -> off
+Time: 162, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x520, size 4
+	Translate 0x520, read: phys addr = 0x20
+	value read = 14600003
+At PC = 0x520: BNE r3,r0,3
+
+== Tick 163 ==
+	interrupts: on -> off
+Time: 163, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x524, size 4
+	Translate 0x524, read: phys addr = 0x24
+	value read = 00000000
+At PC = 0x524: SLL r0,r0,0
+
+== Tick 164 ==
+	interrupts: on -> off
+Time: 164, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x528, size 4
+	Translate 0x528, read: phys addr = 0x28
+	value read = 0800015b
+At PC = 0x528: J 347
+
+== Tick 165 ==
+	interrupts: on -> off
+Time: 165, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x52c, size 4
+	Translate 0x52c, read: phys addr = 0x2c
+	value read = 00000000
+At PC = 0x52c: SLL r0,r0,0
+
+== Tick 166 ==
+	interrupts: on -> off
+Time: 166, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x56c, size 4
+	Translate 0x56c, read: phys addr = 0x6c
+	value read = 0c000004
+At PC = 0x56c: JAL 4
+
+== Tick 167 ==
+	interrupts: on -> off
+Time: 167, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x570, size 4
+	Translate 0x570, read: phys addr = 0x70
+	value read = 00000000
+At PC = 0x570: SLL r0,r0,0
+
+== Tick 168 ==
+	interrupts: on -> off
+Time: 168, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x10, size 4
+	Translate 0x10, read: phys addr = 0x190
+	value read = 24020000
+At PC = 0x10: ADDIU r2,r0,0
+
+== Tick 169 ==
+	interrupts: on -> off
+Time: 169, interrupts off
+Pending interrupts:
+In mapcar, about to invoke 804b510(853a090)
+Interrupt handler timer, scheduled at 185
+In mapcar, about to invoke 804b510(853af10)
+Interrupt handler console read, scheduled at 216
+End of pending interrupts
+	interrupts: off -> on
+Reading VA 0x14, size 4
+	Translate 0x14, read: phys addr = 0x194
+	value read = 0000000c
+At PC = 0x14: SYSCALL
+Exception: syscall
+SyscallHalt(), initiated by user program main #0.
+Machine halting!
+
+Ticks: total 169, idle 0, system 30, user 139
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 12
+Network I/O: packets received 0, sent 0
+
+Cleaning up...

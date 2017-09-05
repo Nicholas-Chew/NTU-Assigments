@@ -1,0 +1,419 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CHEW0335\Desktop\Lab1\Exe_E\Exe_E.uvproj
+Project File Date:  08/24/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(22): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    22 00000004 leds_on  MOVS R1,[R2]
+Exe_E.s(22): error: A1152E: Unexpected operator
+Exe_E.s:    22 00000004 leds_on  MOVS R1,[R2]
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000004    MOVS    R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000004    MOVS    R6,[PC]
+Exe_E.s(24): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    24 00000004    ADDS    PC,[R6]
+Exe_E.s(24): error: A1152E: Unexpected operator
+Exe_E.s:    24 00000004    ADDS    PC,[R6]
+Exe_E.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    24 00000004    ADDS    PC,[R6]
+Exe_E.s: 4 Errors, 3 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(22): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    22 00000004 leds_on  MOVS R1,[R2,#0x00]
+Exe_E.s(22): error: A1152E: Unexpected operator
+Exe_E.s:    22 00000004 leds_on  MOVS R1,[R2,#0x00]
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000004    MOVS    R6,[PC,#0x00]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000004    MOVS    R6,[PC,#0x00]
+Exe_E.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    24 00000004    ADDS    PC,R1
+Exe_E.s: 3 Errors, 2 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    24 00000008    ADDS    PC,R1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(59): warning: A1581W: Added 2 bytes of padding at address 0x2e
+Exe_E.s:    59 00000030  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=108 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1865W: '#' not seen before constant expression
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s(23): error: A1152E: Unexpected operator
+Exe_E.s:    23 00000006    MOVS     R6,[PC]
+Exe_E.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(59): warning: A1581W: Added 2 bytes of padding at address 0x2e
+Exe_E.s:    59 00000030  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=108 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=108 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=108 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=108 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s(25): error: A1106E: Missing comma
+Exe_E.s:    25 00000006 Loop  LSR  R1
+Exe_E.s: 2 Errors, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s(25): error: A1190E: Unexpected '#'
+Exe_E.s:    25 00000006 Loop  PUSH #0x00000001
+Exe_E.s: 2 Errors, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000006 Loop  PUSH 0x00000001
+Exe_E.s: 2 Errors, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1114E: Expected register relative expression
+Exe_E.s:    23 00000006    LDR     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1609W: MOV <rd>,pc instruction does not set bit zero, so does not create a return address
+Exe_E.s:    23 00000006    MOV     R6,PC
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=104 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    23 00000006    MOVS     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    23 00000006    MOVS     R6,PC
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1609W: MOV <rd>,pc instruction does not set bit zero, so does not create a return address
+Exe_E.s:    23 00000006    MOV     R6,PC
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=104 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1190E: Unexpected '#'
+Exe_E.s:    25 00000008 Loop  PUSH #0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH 0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =#0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =#0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =#0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(25): error: A1150E: Bad symbol, not defined or external
+Exe_E.s:    25 00000008 Loop  PUSH =0x00000001
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1609W: MOV <rd>,pc instruction does not set bit zero, so does not create a return address
+Exe_E.s:    23 00000006    MOV     R6,PC
+Exe_E.s(71): warning: A1581W: Added 2 bytes of padding at address 0x42
+Exe_E.s:    71 00000044  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_E.s: 0 Errors, 2 Warnings
+linking...
+Program Size: Code=168 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(23): warning: A1609W: MOV <rd>,pc instruction does not set bit zero, so does not create a return address
+Exe_E.s:    23 00000006    MOV     R6,PC
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=184 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(82): warning: A1581W: Added 2 bytes of padding at address 0x56
+Exe_E.s:    82 00000058  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=192 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1106E: Missing comma
+Exe_E.s:    28 0000000c    LSL R0
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1106E: Missing comma
+Exe_E.s:    28 0000000c    LSL R0
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    28 0000000c    LSL R0,R0,#2
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    28 0000000c    LSL R0,R0,#2
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    28 0000000c    LSL R0,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    28 0000000c    LSL R0,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    28 0000000c    LSL R0,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(28): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    28 0000000c    LSL R0,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(87): warning: A1581W: Added 2 bytes of padding at address 0x5e
+Exe_E.s:    87 00000060  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_E.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=200 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_E.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    29 0000000e    ROR R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    29 0000000e    ROR R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1163E: Unknown opcode RORs , expecting opcode or Macro
+Exe_E.s:    29 0000000e    RORs R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    29 0000000e    RORS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    29 0000000e    RORS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    29 0000000e    RORS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_E.s:    29 0000000e    RORS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1163E: Unknown opcode ARS , expecting opcode or Macro
+Exe_E.s:    29 0000000e    ARS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1163E: Unknown opcode ARS , expecting opcode or Macro
+Exe_E.s:    29 0000000e    ARS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1163E: Unknown opcode ARSS , expecting opcode or Macro
+Exe_E.s:    29 0000000e    ARSS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_E.s...
+Exe_E.s(29): error: A1163E: Unknown opcode ARSS , expecting opcode or Macro
+Exe_E.s:    29 0000000e    ARSS R6,R0,#1
+Exe_E.s: 1 Error, 0 Warnings
+Target not created

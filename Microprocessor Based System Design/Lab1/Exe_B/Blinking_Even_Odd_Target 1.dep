@@ -1,0 +1,2 @@
+Dependencies for Project 'Blinking_Even_Odd', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Blink_Even_Odd.s)(0x57BD48E9)(--cpu Cortex-M1 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" --list "Blink_Even_Odd.lst" --xref -o "Blink_Even_Odd.o")

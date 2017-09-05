@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'ExB.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"seven_segment.o"'
+### List of Objects: adding '"main3b.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M1 "startup.o" "i2c.o" "seven_segment.o" "main3b.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ExB.map" -o "ExB.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ExB.axf'
+### ADS-LD Command File: 'ExB.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ExB.lnp', Handle=0x000006DC
+### Writing '.lnp' file
+### ADS-LD Command file 'ExB.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

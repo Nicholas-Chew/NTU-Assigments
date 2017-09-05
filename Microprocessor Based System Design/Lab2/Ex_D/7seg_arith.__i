@@ -1,0 +1,1 @@
+-c --cpu Cortex-M1 -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" -o "7seg_arith.o" --omf_browse "7seg_arith.crf" --depend "7seg_arith.d" "7Seg_Arith.c"

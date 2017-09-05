@@ -1,0 +1,314 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ; Blink_LED.s   Lab #1 sample program
+    2 00000000         ; This program blink the LEDs on the DE0 board
+    3 00000000         
+    4 00000000         ; Stack related directives
+    5 00000000                 AREA             STACK, NOINIT, READWRITE, ALIGN
+=4 
+                                                            ; Name this block o
+                                                            f code as STACK, re
+                                                            side in the RAM are
+                                                            a
+    6 00000000 00000200 
+                       Stack_Size
+                               EQU              0x200       ; Stack Size = 0x20
+                                                            0 bytes
+    7 00000000         Stack_Mem
+                               SPACE            Stack_Size  ; Reserve the space
+                                                             in RAM
+    8 00000200         TOP_STACK                            ; Set top of stack 
+                                                            location
+    9 00000200         
+   10 00000200         ; Vector Table - link to Address 0 at Reset
+   11 00000200                 AREA             RESET, DATA, READONLY ; Name th
+                                                            is block of code as
+                                                             RESET, reside in t
+                                                            he ROM area
+   12 00000000 00000000 
+                       __Vectors
+                               DCD              TOP_STACK   ; Vector table star
+                                                            t here, first enty 
+                                                            is the 'Top of stac
+                                                            k'
+   13 00000004 00000000        DCD              START       ; second entry is t
+                                                            he Reset vector add
+                                                            ress
+   14 00000008         
+   15 00000008         ; User Application
+   16 00000008                 AREA             texts, CODE, READONLY ; Name th
+                                                            is block of code as
+                                                             texts, reside in t
+                                                            he ROM area
+   17 00000000         ENTRY                                ; Mark first instru
+                                                            ction to execute
+   18 00000000         START   PROC                         ; Declaration of su
+                                                            broutine/function 
+   19 00000000 220A            MOVS             R2,#0xA     ; Store address 0xA
+                                                            0000000 in R2; star
+                                                            t with 0xA
+   20 00000002 0712            LSLS             R2,R2,#28   ; Logical left shif
+                                                            t R2 to obtain the 
+                                                            correct address-0xA
+                                                            0000000
+   21 00000004 20F5    leds_on MOVS             R0,#0xF5    ; To turn on all 10
+                                                             LEDs, value need =
+                                                             0x3FF;  pass the v
+                                                            alue through R0
+   22 00000006 0080            LSLS             R0,R0,#2    ; Logical Left shif
+                                                            t by 2 (for LEDG9 &
+                                                             LEDG8)
+   23 00000008 3003            ADDS             R0,#0x03    ; Add 0x03 for the 
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+                                                            Least Significant L
+                                                            EDs (LEDG1 & LEDG0)
+                                                            
+   24 0000000A 6010            STR              R0,[R2,#0x00] ; Store the value
+                                                             to the DE0_LED add
+                                                            ress
+   25 0000000C F7FF FFFE       BL               DELAY       ; Call the DELAY fu
+                                                            nction
+   26 00000010 2000    leds_off
+                               MOVS             r0,#0x00    ; MOVE new values t
+                                                            o r0 to turn off th
+                                                            e LED
+   27 00000012 6010            STR              r0,[r2,#0x00] ; Store the value
+                                                             to the DE0_LED add
+                                                            ress
+   28 00000014 F7FF FFFE       BL               DELAY       ; Call the DELAY fu
+                                                            nction
+   29 00000018 E7F4            B                leds_on     ; Repeat
+   30 0000001A                 ENDP                         ; END of this subro
+                                                            utine
+   31 0000001A         
+   32 0000001A         ;Delay subroutine
+   33 0000001A 000FFFFF 
+                       COUNTER EQU              0xFFFFF     ; Counter to be use
+                                                            d for delay looping
+                                                            
+   34 0000001A         
+   35 0000001A         DELAY   PROC                         ; Declaration of DE
+                                                            LAY subroutine
+   36 0000001A 2403            MOVS             R4,#3
+   37 0000001C 4B02    delay0  ldr              R3,=COUNTER ; Initialize R3 wit
+                                                            h delay COUNTER
+   38 0000001E 3B01    delay1  SUBS             R3,#1
+   39 00000020 D1FD            BNE              delay1
+   40 00000022 3C01            SUBS             R4,#1
+   41 00000024 D1FA            BNE              delay0
+   42 00000026 4770            BX               LR          ;Return to the call
+                                                            ing function
+   43 00000028                 ENDP
+   44 00000028         
+   45 00000028         
+   46 00000028         
+   47 00000028         ; The following codes are not used in this application, 
+                       but their symbols are required for error-free linking by
+                        default linker setup 
+   48 00000028                 EXPORT           __Vectors   ; default symbol re
+                                                            quired by the linke
+                                                            r, not used in this
+                                                             program      
+   49 00000028                 EXPORT           Reset_Handler ; default symbol 
+                                                            required by linker,
+                                                             not needed in this
+                                                             program
+   50 00000028         
+   51 00000028 000FFFFF        AREA             texts, CODE, READONLY, ALIGN=4
+   52 0000002C         Reset_Handler
+                               PROC                         ; Typical code for 
+                                                            Reset_vector handle
+                                                            r
+
+
+
+ARM Macro Assembler    Page 3 
+
+
+   53 0000002C 4800            LDR              R0, =START  ; User Application 
+                                                            called by Label
+   54 0000002E 4700            BX               R0
+   55 00000030                 ENDP
+   56 00000030         
+   57 00000030                 END                          ; End of code. Asse
+                                                            mbler ignore code b
+                                                            eyind this point   
+                                                             
+              00000000 
+Command Line: --debug --xref --cpu=Cortex-M1 --apcs=interwork -oBlink_LED.o -IC
+:\Keil\ARM\INC -IC:\Keil\ARM\INC\ARM --predefine="__MICROLIB SETA 1" --list=Bli
+nk_LED.lst Blink_LED.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+STACK 00000000
+
+Symbol: STACK
+   Definitions
+      At line 5 in file Blink_LED.s
+   Uses
+      None
+Comment: STACK unused
+Stack_Mem 00000000
+
+Symbol: Stack_Mem
+   Definitions
+      At line 7 in file Blink_LED.s
+   Uses
+      None
+Comment: Stack_Mem unused
+TOP_STACK 00000200
+
+Symbol: TOP_STACK
+   Definitions
+      At line 8 in file Blink_LED.s
+   Uses
+      At line 12 in file Blink_LED.s
+Comment: TOP_STACK used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET 00000000
+
+Symbol: RESET
+   Definitions
+      At line 11 in file Blink_LED.s
+   Uses
+      None
+Comment: RESET unused
+__Vectors 00000000
+
+Symbol: __Vectors
+   Definitions
+      At line 12 in file Blink_LED.s
+   Uses
+      At line 48 in file Blink_LED.s
+Comment: __Vectors used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+DELAY 0000001A
+
+Symbol: DELAY
+   Definitions
+      At line 35 in file Blink_LED.s
+   Uses
+      At line 25 in file Blink_LED.s
+      At line 28 in file Blink_LED.s
+
+ENTRY 00000000
+
+Symbol: ENTRY
+   Definitions
+      At line 17 in file Blink_LED.s
+   Uses
+      None
+Comment: ENTRY unused
+Reset_Handler 0000002C
+
+Symbol: Reset_Handler
+   Definitions
+      At line 52 in file Blink_LED.s
+   Uses
+      At line 49 in file Blink_LED.s
+Comment: Reset_Handler used once
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 18 in file Blink_LED.s
+   Uses
+      At line 13 in file Blink_LED.s
+      At line 53 in file Blink_LED.s
+
+delay0 0000001C
+
+Symbol: delay0
+   Definitions
+      At line 37 in file Blink_LED.s
+   Uses
+      At line 41 in file Blink_LED.s
+Comment: delay0 used once
+delay1 0000001E
+
+Symbol: delay1
+   Definitions
+      At line 38 in file Blink_LED.s
+   Uses
+      At line 39 in file Blink_LED.s
+Comment: delay1 used once
+leds_off 00000010
+
+Symbol: leds_off
+   Definitions
+      At line 26 in file Blink_LED.s
+   Uses
+      None
+Comment: leds_off unused
+leds_on 00000004
+
+
+
+ARM Macro Assembler    Page 2 Alphabetic symbol ordering
+Relocatable symbols
+
+
+Symbol: leds_on
+   Definitions
+      At line 21 in file Blink_LED.s
+   Uses
+      At line 29 in file Blink_LED.s
+Comment: leds_on used once
+texts 00000000
+
+Symbol: texts
+   Definitions
+      At line 16 in file Blink_LED.s
+   Uses
+      None
+Comment: texts unused
+9 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+COUNTER 000FFFFF
+
+Symbol: COUNTER
+   Definitions
+      At line 33 in file Blink_LED.s
+   Uses
+      At line 37 in file Blink_LED.s
+Comment: COUNTER used once
+Stack_Size 00000200
+
+Symbol: Stack_Size
+   Definitions
+      At line 6 in file Blink_LED.s
+   Uses
+      At line 7 in file Blink_LED.s
+Comment: Stack_Size used once
+2 symbols
+340 symbols in table

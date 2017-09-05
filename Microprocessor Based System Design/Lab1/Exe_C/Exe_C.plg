@@ -1,0 +1,178 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CHEW0335\Desktop\Lab1\Exe_C\Exe_C.uvproj
+Project File Date:  08/24/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(34): error: A1516E: Bad symbol 'leds_on', not defined or external
+Exe_C.s:    34 00000024    B     leds_on                  ; Repeat
+Exe_C.s(56): warning: A1581W: Added 2 bytes of padding at address 0x32
+Exe_C.s:    56 00000034  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_C.s: 1 Error, 1 Warning
+Target not created
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=56 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(21): error: A1190E: Unexpected '['
+Exe_C.s:    21 00000004 leds_on  LDR  [R0],=0x155
+Exe_C.s: 1 Error, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(24): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    24 00000008    MOV  R6,[R5]
+Exe_C.s(24): error: A1152E: Unexpected operator
+Exe_C.s:    24 00000008    MOV  R6,[R5]
+Exe_C.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    24 00000008    MOV  R6,[R5]
+Exe_C.s(30): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    30 00000012    MOV  R6,[R5]
+Exe_C.s(30): error: A1152E: Unexpected operator
+Exe_C.s:    30 00000012    MOV  R6,[R5]
+Exe_C.s(30): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    30 00000012    MOV  R6,[R5]
+Exe_C.s: 4 Errors, 2 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(24): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    24 00000008    MOV  R6,[R5,#0X00]
+Exe_C.s(24): error: A1152E: Unexpected operator
+Exe_C.s:    24 00000008    MOV  R6,[R5,#0X00]
+Exe_C.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    24 00000008    MOV  R6,[R5,#0X00]
+Exe_C.s(30): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    30 00000012    MOV  R6,[R5,#0X00]
+Exe_C.s(30): error: A1152E: Unexpected operator
+Exe_C.s:    30 00000012    MOV  R6,[R5,#0X00]
+Exe_C.s(30): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    30 00000012    MOV  R6,[R5,#0X00]
+Exe_C.s: 4 Errors, 2 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(24): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    24 00000008    MOV  R6,[R5,#0X00]
+Exe_C.s(24): error: A1152E: Unexpected operator
+Exe_C.s:    24 00000008    MOV  R6,[R5,#0X00]
+Exe_C.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    24 00000008    MOV  R6,[R5,#0X00]
+Exe_C.s(30): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    30 00000012    MOV  R6,[R5,#0X00]
+Exe_C.s(30): error: A1152E: Unexpected operator
+Exe_C.s:    30 00000012    MOV  R6,[R5,#0X00]
+Exe_C.s(30): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    30 00000012    MOV  R6,[R5,#0X00]
+Exe_C.s: 4 Errors, 2 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(24): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    24 00000008    MOV  R6,[R5]
+Exe_C.s(24): error: A1152E: Unexpected operator
+Exe_C.s:    24 00000008    MOV  R6,[R5]
+Exe_C.s(24): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    24 00000008    MOV  R6,[R5]
+Exe_C.s(30): warning: A1865W: '#' not seen before constant expression
+Exe_C.s:    30 00000012    MOV  R6,[R5]
+Exe_C.s(30): error: A1152E: Unexpected operator
+Exe_C.s:    30 00000012    MOV  R6,[R5]
+Exe_C.s(30): error: A1616E: Instruction, offset, immediate or register combination is not supported by the current instruction set
+Exe_C.s:    30 00000012    MOV  R6,[R5]
+Exe_C.s: 4 Errors, 2 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(57): warning: A1581W: Added 2 bytes of padding at address 0x2e
+Exe_C.s:    57 00000030  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_C.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+Exe_C.s(57): warning: A1581W: Added 2 bytes of padding at address 0x2e
+Exe_C.s:    57 00000030  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_C.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=64 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_C.s...
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_C.axf" - 0 Error(s), 0 Warning(s).

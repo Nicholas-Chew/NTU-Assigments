@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CHEW0335\Desktop\Lab1\Blink_LED.uvproj
+Project File Date:  08/24/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=52 RO-data=8 RW-data=0 ZI-data=512  
+"Blink_LED.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Blinking.s...
+linking...
+Program Size: Code=52 RO-data=8 RW-data=0 ZI-data=512  
+"Blink_LED.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=52 RO-data=8 RW-data=0 ZI-data=512  
+"Blink_LED.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=52 RO-data=8 RW-data=0 ZI-data=512  
+"Blink_LED.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=52 RO-data=8 RW-data=0 ZI-data=512  
+"Blink_LED.axf" - 0 Error(s), 0 Warning(s).

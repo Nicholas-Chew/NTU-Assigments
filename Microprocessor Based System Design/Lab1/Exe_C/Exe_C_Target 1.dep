@@ -1,0 +1,2 @@
+Dependencies for Project 'Exe_C', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Exe_C.s)(0x57BD55D4)(--cpu Cortex-M1 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" --list "Exe_C.lst" --xref -o "Exe_C.o")

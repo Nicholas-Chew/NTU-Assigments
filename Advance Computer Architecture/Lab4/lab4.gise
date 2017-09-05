@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lab4test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="lab4test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="lab4test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lab4test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="pipelined_regfile_5stage.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="pipelined_regfile_5stage.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="pipelined_regfile_5stage.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="pipelined_regfile_5stage.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="pipelined_regfile_5stage.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="pipelined_regfile_5stage.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pipelined_regfile_5stage.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="pipelined_regfile_5stage.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="pipelined_regfile_5stage.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="pipelined_regfile_5stage.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pipelined_regfile_5stage_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pipelined_regfile_5stage_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="pipelined_regfile_5stage_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pipelined_regfile_5stage_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pipelined_regfile_5stage_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pipelined_regfile_5stage_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pipelined_regfile_5stage_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1490793759" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1490793758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793759" xil_pn:in_ck="744673962141659943" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1490793759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EXE_MEMstage.v"/>
+      <outfile xil_pn:name="ID_EXEstage.v"/>
+      <outfile xil_pn:name="MEM_WBstage.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="control.v"/>
+      <outfile xil_pn:name="define.v"/>
+      <outfile xil_pn:name="lab4test.v"/>
+      <outfile xil_pn:name="memory.v"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.v"/>
+      <outfile xil_pn:name="regfile.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793759" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8378855320832321382" xil_pn:start_ts="1490793759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793759" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6750364120519678888" xil_pn:start_ts="1490793759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793759" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-651677491467407835" xil_pn:start_ts="1490793759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793759" xil_pn:in_ck="744673962141659943" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1490793759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EXE_MEMstage.v"/>
+      <outfile xil_pn:name="ID_EXEstage.v"/>
+      <outfile xil_pn:name="MEM_WBstage.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="control.v"/>
+      <outfile xil_pn:name="define.v"/>
+      <outfile xil_pn:name="lab4test.v"/>
+      <outfile xil_pn:name="memory.v"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.v"/>
+      <outfile xil_pn:name="regfile.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793762" xil_pn:in_ck="744673962141659943" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8223531503879173357" xil_pn:start_ts="1490793759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="lab4test_beh.prj"/>
+      <outfile xil_pn:name="lab4test_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1490793762" xil_pn:in_ck="1552887761154027954" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4787618847527262966" xil_pn:start_ts="1490793762">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="lab4test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8735206304532204500" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-651677491467407835" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1512542210825236950" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161029" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8083554566012494033" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161042" xil_pn:in_ck="79059857062248480" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="1662951161762385236" xil_pn:start_ts="1490161029">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.lso"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.ngc"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.ngr"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.prj"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.stx"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.syr"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.xst"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161042" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1446944630429993599" xil_pn:start_ts="1490161042">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161049" xil_pn:in_ck="508512267519728261" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7178870287851727354" xil_pn:start_ts="1490161042">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.bld"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage.ngd"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1490161071" xil_pn:in_ck="508512267519728262" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4245753365082497697" xil_pn:start_ts="1490161049">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage_map.map"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage_map.mrp"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage_map.ngm"/>
+      <outfile xil_pn:name="pipelined_regfile_5stage_map.xrpt"/>
+    </transform>
+  </transforms>
+
+</generated_project>

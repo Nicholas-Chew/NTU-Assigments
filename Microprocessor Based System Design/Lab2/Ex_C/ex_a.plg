@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+K:\Lab2\Ex_C\ex_a.uvproj
+Project File Date:  09/07/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup.s...
+..\startup.s(142): warning: A1581W: Added 2 bytes of padding at address 0xe
+..\startup.s:   142 00000010                 END
+..\startup.s: 0 Errors, 1 Warning
+compiling Blink_LED.c...
+..\Blink_LED.c(13): warning:  #177-D: variable "i" was declared but never referenced
+..\Blink_LED.c:   int32_t i ;   
+..\Blink_LED.c:           ^
+..\Blink_LED.c: ..\Blink_LED.c: 1 warning, 0 errors
+linking...
+Program Size: Code=156 RO-data=80 RW-data=0 ZI-data=512  
+"ex_a.axf" - 0 Error(s), 2 Warning(s).

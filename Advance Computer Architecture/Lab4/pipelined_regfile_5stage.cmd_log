@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/CHEW0335/Desktop/Lab4/lab4/pipelined_regfile_5stage.xst" -ofn "C:/Users/CHEW0335/Desktop/Lab4/lab4/pipelined_regfile_5stage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 pipelined_regfile_5stage.ngc pipelined_regfile_5stage.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pipelined_regfile_5stage_map.ncd pipelined_regfile_5stage.ngd pipelined_regfile_5stage.pcf 

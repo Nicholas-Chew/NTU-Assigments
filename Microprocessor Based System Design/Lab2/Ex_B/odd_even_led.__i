@@ -1,0 +1,1 @@
+-c --cpu Cortex-M1 -D__MICROLIB -g -O1 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" -o "odd_even_led.o" --omf_browse "odd_even_led.crf" --depend "odd_even_led.d" "Odd_Even_LED.c"

@@ -1,0 +1,19 @@
+#ifndef Stack_h
+#define Stack_h
+
+#include "LinkedList.h"
+
+////////////////////////////////////////////////////////////////////////////////
+
+typedef struct stack{
+   LinkedList ll;
+} Stack;
+
+////////////////////////////////////////////////////////////////////////////////
+
+void push(Stack *s, int item);
+int pop(Stack *s);
+int peek(Stack *s);
+int isEmptyStack(Stack *s);
+
+#endif

@@ -1,0 +1,2 @@
+Dependencies for Project 'Blink_LED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Blinking.s)(0x57BD469F)(--cpu Cortex-M1 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" --list "Blinking.lst" --xref -o "Blinking.o")

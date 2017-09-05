@@ -1,0 +1,4 @@
+Dependencies for Project 'ex_a', Target 'Target 1': (DO NOT MODIFY !)
+F (..\startup.s)(0x57CFB518)(--cpu Cortex-M1 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" --list "startup.lst" --xref -o ".\startup.o")
+F (.\7Seg_Arith.c)(0x57CFD6B6)(-c --cpu Cortex-M1 -D__MICROLIB -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ARM" -o "7seg_arith.o" --omf_browse "7seg_arith.crf" --depend "7seg_arith.d")
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x4BD0408C)

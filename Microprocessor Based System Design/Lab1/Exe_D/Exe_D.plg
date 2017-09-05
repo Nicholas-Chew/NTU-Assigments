@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CHEW0335\Desktop\Lab1\Exe_D\Exe_D.uvproj
+Project File Date:  08/24/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Exe_D.s...
+linking...
+Program Size: Code=72 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_D.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_D.s...
+Exe_D.s(22): error: A1162E: Incorrect routine name 'seg'
+Exe_D.s:    22 00000004 7seg  LDR  R0,[R5]     ; Store 0x155 directly into R0 , Odd
+Exe_D.s(25): error: A1137E: Unexpected characters at end of line
+Exe_D.s:    25 00000008    B     7seg                  ; Repeat
+Exe_D.s: 2 Errors, 0 Warnings
+Target not created
+Build target 'Target 1'
+assembling Exe_D.s...
+linking...
+Program Size: Code=44 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_D.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Exe_D.s...
+Exe_D.s(59): warning: A1581W: Added 2 bytes of padding at address 0x32
+Exe_D.s:    59 00000034  AREA    texts, CODE, READONLY, ALIGN=4
+Exe_D.s: 0 Errors, 1 Warning
+linking...
+Program Size: Code=84 RO-data=8 RW-data=0 ZI-data=512  
+"Exe_D.axf" - 0 Error(s), 1 Warning(s).

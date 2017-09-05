@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\CHEW0335\Desktop\Lab2\Ex_B\ex_a.uvproj
+Project File Date:  09/07/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling Odd_Even_LED.c...
+linking...
+Program Size: Code=176 RO-data=80 RW-data=0 ZI-data=512  
+"ex_a.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Odd_Even_LED.c...
+linking...
+Program Size: Code=168 RO-data=80 RW-data=0 ZI-data=512  
+"ex_a.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Odd_Even_LED.c...
+linking...
+Program Size: Code=176 RO-data=80 RW-data=0 ZI-data=512  
+"ex_a.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Odd_Even_LED.c...
+linking...
+Program Size: Code=168 RO-data=80 RW-data=0 ZI-data=512  
+"ex_a.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=168 RO-data=80 RW-data=0 ZI-data=512  
+"ex_a.axf" - 0 Error(s), 0 Warning(s).
