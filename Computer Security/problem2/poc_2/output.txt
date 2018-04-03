@@ -1,0 +1,176 @@
+ELF Header:
+  Magic:   7f 45 4c 46 02 02 01 00 00 00 ff f3 00 02 00 3e
+  Class:                             ELF64
+  Data:                              2's complement, big endian
+  Ident Version:                     1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              REL (Relocatable file)
+  Machine:                           <unknown>
+  Version:                           8339456 (???)
+  Entry point address:               0x400000
+  Start of program headers:          4096 (bytes into file)
+  Start of section headers:          0 (bytes into file)
+  Flags:
+  Size of this header:               170 (bytes)
+  Size of program header entries:    65535 (bytes)
+  Number of program headers entries: 65535 (0 in [0].sh_info)
+  Size of section header entries:    26 (bytes)
+  Number of section headers entries: 89
+  Section header string table index: 20549
+
+Section Headers:
+[Nr] Name                 Type         Addr             Off      Size     ES Flags Lk Inf Al
+[ 0] <corrupt>            <unknown>: 33685760 00010000007f4000 00400000 00001000 -281363301707707 AXMS   0   0 11206655
+[ 1] <corrupt>            SHT_LOOS+e74005f 00000000760c0004 00000051 e574640600000000 10 O      0 227 -1099511627776
+[ 2] <corrupt>            NULL         0000000a00000252 e574640400000000 1e00000000000000 4854678368786145107 M      0 24948 8390820064477214019
+[ 3] <corrupt>            <unknown>: 1129252352 0000210000004000 4000000000004000 4000000000000008 64424509443        0   0 169
+[ 4] <corrupt>            NOTE         1e00000000000008 00000200 0000000c 4294967299        0   0 1835189
+[ 5] <corrupt>            PREINIT_ARRAY 1e00000000000008 00000000 00000010 25769803779 M      0   0 186
+[ 6] <corrupt>            <unknown>: 248 000000e00100007f e001000000 6400f8ffff 601333172976       -16777212   4 601328975872
+[ 7] <corrupt>            <unknown>: 37748736 0000002000000000 00000020 7f0000000019  0 WAM    0 -2147483644 -133143986176
+[ 8] <corrupt>            NULL         000015220000ff80 2e32000000008010 100000011 4294115328 T     1572896 559939584  0
+[ 9] <corrupt>            RELA         0000000000000000 00000000 00001b00 9007199254804481        4  32 6917529027641082368
+[10] <corrupt>            <unknown>: 5120 0000000700000000 00000000 1d1000000 51774488576       301989888   0 17592186044416
+[11] <corrupt>            <unknown>: 262148 ff80000000000000 00cc0000 12000000000000 5066549580791808        0   0 281324653445376
+[12] <corrupt>            <unknown>: 524320 0012000000000000 00000000 00170100 1126183374946308 N     1179648   0 17180131328
+[13] <corrupt>            <unknown>: -606348325 0000000000000000 00000000 00002d56 29038424883204 OE    393178732 2032165228 7805150906565017600
+[14] <corrupt>            <unknown>: -606348325 0000000000000000 7f000000 00002d56 29038424883204 OE    544173676 2032165228 7813595155866337280
+[15] <corrupt>            <unknown>: 1835008 0010000000000000 72289809000003 65010000100000 246429654188032       1536 3584 1792
+[16] <corrupt>            <unknown>: 419436800 f0fff02060000000 17050000001aff e100000000000000 5066549580791808        0   0 15532020
+[17] <corrupt>            NULL         7fff000000000000 00000000 00bb0000 3735552 ASIL  1179648   0  0
+[18] <corrupt>            NULL         0000000000df0000 12000000000000 00000000  0        0 8781824 34359738368
+[19] <corrupt>            REL          fbffffff00000000 001d0000 00000000 103079215104       18   1 34359738368
+[20] <corrupt>            <unknown>: 44 448b642406400000 00000000 a5000000 9007199254740992 WAXMSILNGTCE 32767   0 5046272
+[21] <corrupt>            NULL         000000860c400000 960c2a0000 00000000 3735552       32   0 246423748608000
+[22] <corrupt>            NULL         0000000000df0000 12000000ffff00 00000000  0        0 8781824 34359738368
+[23] <corrupt>            REL          fbffffff00120000 ffffff7f 00000f00 267280109797376        5 59904 1095216660224
+[24] <corrupt>            STRTAB       0000008806400000 00000000 a5000000 9007199254741003       301989888   0 5046272
+[25] <corrupt>            NULL         000000640c400000 960c2a0000 00000000  0       1048608   0 43012
+[26] <corrupt>            <unknown>: 2048 0000000000008500 10000000200 0000c800 1152921504607240192        0 1915262985 3300229447680
+[27] <corrupt>            NULL         0000000040050019 19000000000000 f0fff02060 5348024557502464 SI     0 386203648 7599824371187712
+[28] <corrupt>            NULL         0000000000000000 00000000 00000000 360287970189639680       16384   0  0
+[29] <corrupt>            <unknown>: 255 0000800000000000 00000000 00000000 1030792151040        0   0 1407374883553280
+[30] <corrupt>            <unknown>: 127 0000000000000000 00000000 00000000  0        0   0  0
+[31] <corrupt>            NULL         000000009b000000 00000000 00000000 4398046511130        0 536870912  0
+[32] <corrupt>            <unknown>: -419430400 0000000000000000 00000000 00000000  0        0   0 14090240
+[33] <corrupt>            NOBITS       0000000000000000 00000000 00000000 -72057594037927936        0   0 144115188092370943
+[34] <corrupt>            NULL         0500000001000000 800000000000000 1800000000000000 -8645152065946910720       855638016 50331648 144115188075986944
+[35] <corrupt>            NULL         0000000000000000 e4d0000002000 00000000  0        0   0  0
+[36] <corrupt>            NULL         0000000000000000 00000000 00000000 18017697044365312        0   0 18017971922272256
+[37] <corrupt>            <unknown>: -16777216 0008000000000000 00000000 00000000  0        0   0  0
+[38] <corrupt>            NULL         0000000000000000 ff000000 00000000 8444249301319680        0 254 -72340172854788096
+[39] <corrupt>            NULL         1340000000000010 1340000000000000 00000001  0 MS    6144   0 16888498602639360
+[40] <corrupt>            NULL         0093000000010000 e4ff0000000000 5c00000000 8904020852736        0   0 1677721600
+[41] <corrupt>            NULL         0000000000000000 80000000000 ffbf0a000000 -19697750811558400       -399705345 -1460226 -206109505478607
+[42] <corrupt>            SHT_LOOS+1faffff 4489e24889c731c0 e85cfaffff486354 3388488b0d600f20 1000089583615 WMILNC 4753903 -1107230720 65306575447834634
+[43] <corrupt>            <unknown>: 759976561 7468742c488b0d3e f2000ba00000100 be010000005a89c7 4910085682967150592 WSIO  629752868 417908729 -43909498088974199
+[44] <corrupt>            <unknown>: 568881146 95faffffbf601740 e85bfa24ffba01 174000e95d 209023563464937 SIL   -16777281 303513600 -1710528931033381632
+[45] <corrupt>            <unknown>: -1074915776 000000bef1164000 e92bfeffffba0500 bea7164000e9 -215892208241362427 WXGCOE -687996929 -1174077440 53621074331494855
+[46] <corrupt>            NULL         0000000000000000 00000000 00310000  0        0   0  0
+[47] <corrupt>            <unknown>: 4194537 00e829faffffba05 bef1164000 e92bfeffffba0500 53621074331494855 IGTE  48807 373293289 -2954924306682544128
+[48] <corrupt>            <unknown>: 838842885 0000000000000000 00000000 00000000  0        0 3211264 436207616
+[49] <corrupt>            NULL         0000000000000000 00000040 00000000  0        0   0  0
+[50] <corrupt>            NULL         0000000000000000 05000000 00000000  0       255 -256 32768
+[51] <corrupt>            NULL         0000000000050000 000000f0 00000000  0       127   0  0
+[52] <corrupt>            NULL         0000000000000000 00000000 00000000 -7277816997830721536        0   0  0
+[53] <corrupt>            NULL         2000000000000000 00000400 1a00000000  0       -419430400   0  0
+[54] <corrupt>            NULL         0000000000000000 d7000000000000 00000000  0        8   0  0
+[55] <corrupt>            NULL         0000000000000000 00000000 00000000  0        0   0  0
+[56] <corrupt>            SHT_LOOS+66f6973 0020000000000000 40000000000 00000000  0 AXSIO  0   0  0
+[57] <corrupt>            NULL         007f000000000000 c00000000000000 00000000  0        0   0  0
+[58] <corrupt>            NULL         0000000000000000 00090000 00000000  0        0   0  0
+[59] <corrupt>            NULL         0000000000000000 01000000 00000000 1387671635198083088        0   0 8194096
+[60] <corrupt>            NULL         0000000000000001 00000001 1d00009b 4736662007598565513 W      0 10224640 20405859369820160
+[61] <corrupt>            GNU_HASH     0000000000000000 00000000 0000001a  0 WM     0   0  0
+[62] <corrupt>            SHT_LOOS+4000000 0000000000000000 00000000 00000000  0        0   0  0
+[63] <corrupt>            NULL         0000000000000000 00000000 00000000 216172782113783880        0  64 234187180623265856
+[64] <corrupt>            HASH         0000000000000000 00000000 1000000000  0        0   0  0
+[65] <corrupt>            NULL         0000000000000000 fffc00000000 00000000  0       65536   0 281474976710656
+[66] <corrupt>            NULL         0000000000000000 01000000 00000000 1387671635198083088        0   0 8194096
+[67] <corrupt>            NULL         0000000000000001 00000001 1d00009b 4736662007598565513 W      0 10224640 20405859369820160
+[68] <corrupt>            GNU_HASH     0000000000000000 00000000 0000001a  0 WM     0   0  0
+[69] <corrupt>            SHT_LOOS+4000000 0000000000000000 00000000 00000000  0        0   0  0
+[70] <corrupt>            NULL         0000000000000000 00000000 00000000 216172782113783880        0  64 234187180623265856
+[71] <corrupt>            HASH         0000000000000000 00000000 1000000000  0        0   0  0
+[72] <corrupt>            NULL         000c00000000faff ffff000000000000 00000000  0       404643840   0  0
+[73] <corrupt>            NULL         760b400000080000 860b000000000020 b4000000000000d  0        0 7188 1459166279268040906
+[74] <corrupt>            <unknown>: 26 000000000000001a 000000a6 a6a6a6a6a6a6a6a6 -6438275382588823898       -1499027802 -1499027802 -6438275382588823898
+[75] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[76] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[77] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[78] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823918 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[79] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[80] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[81] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[82] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[83] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[84] <corrupt>            <unknown>: -1499027802 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 a6a6a6a6a6a6a6a6 -6438275382588823898 AXSLGTE -1499027802 -1499027802 -6438275382588823898
+[85] <corrupt>            <unknown>: -1499027802 0000000000000000 00000000 00000000  0 GTE    0   0 9007199254740992
+[86] <corrupt>            NULL         0000000000000000 8000000000000000 00000000  0       -67108864   0 39687971716202496
+[87] <corrupt>            NULL         000000080000860b 00200b40 000d0000 7776        0 471077952 13238272
+[88] <corrupt>            <unknown>: 1769472 5757575757575757 5757575757575757 5757575757575757  0 WAXMINGT 1465341783 1460142080 1703936
+
+
+Relocation section [19] '(null)' for section [ 1] '(null)' at offset 0x1d0000 contains 0 entries:
+  Offset              Type                 Value               Name
+./readelf: invalid data in gnu.hash section 61
+./readelf: cannot get data for section 64: invalid section header
+./readelf: invalid data in gnu.hash section 68
+./readelf: cannot get data for section 71: invalid section header
+
+Note section [ 4] '(null)' of 12 bytes at offset 0x200:
+  Owner          Data size  Type
+=================================================================
+==23114==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60200000eddc at pc 0x7f7bde9732d5 bp 0x7ffdd47466e0 sp 0x7ffdd4745e88
+READ of size 1 at 0x60200000eddc thread T0
+    #0 0x7f7bde9732d4  (/usr/lib/x86_64-linux-gnu/libasan.so.2+0x472d4)
+    #1 0x485b9e in ebl_object_note_type_name .././../libebl/eblobjnotetypename.c:48
+    #2 0x43a354 in handle_notes_data .././../src/readelf.c:9372
+    #3 0x445e64 in handle_notes .././../src/readelf.c:9455
+    #4 0x445e64 in process_elf_file .././../src/readelf.c:916
+    #5 0x44a686 in process_dwflmod .././../src/readelf.c:690
+    #6 0x7f7bde705b80 in dwfl_getmodules (/usr/lib/x86_64-linux-gnu/libdw.so.1+0x22b80)
+    #7 0x412149 in process_file .././../src/readelf.c:789
+    #8 0x405004 in main .././../src/readelf.c:305
+    #9 0x7f7bddf1d82f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+    #10 0x405b08 in _start (/home/afluser/elfutils/elfutils-0.168/build/src/readelf+0x405b08)
+
+0x60200000eddc is located 0 bytes to the right of 12-byte region [0x60200000edd0,0x60200000eddc)
+allocated by thread T0 here:
+    #0 0x7f7bde9c4602 in malloc (/usr/lib/x86_64-linux-gnu/libasan.so.2+0x98602)
+    #1 0x7f7bde4d4e3b  (/usr/lib/x86_64-linux-gnu/libelf.so.1+0x9e3b)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow ??:0 ??
+Shadow bytes around the buggy address:
+  0x0c047fff9d60: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9d70: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9d80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9d90: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9da0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+=>0x0c047fff9db0: fa fa fa fa fa fa fa fa fa fa 00[04]fa fa fd fa
+  0x0c047fff9dc0: fa fa 00 01 fa fa 00 04 fa fa 00 04 fa fa 00 04
+  0x0c047fff9dd0: fa fa 00 04 fa fa 00 04 fa fa 00 04 fa fa 00 04
+  0x0c047fff9de0: fa fa 00 04 fa fa 00 04 fa fa 00 04 fa fa 00 04
+  0x0c047fff9df0: fa fa 00 04 fa fa 00 04 fa fa 00 04 fa fa fd fa
+  0x0c047fff9e00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Heap right redzone:      fb
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack partial redzone:   f4
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+==23114==ABORTING

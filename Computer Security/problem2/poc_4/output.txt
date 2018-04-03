@@ -1,0 +1,27 @@
+LHa: Error: header CRC error
+tmp//▒▒▒▒K▒▒    - Melting  :  LHa: Error: make_table(): Bad table (case b)..
+LHa: ASAN:SIGSEGV
+=================================================================
+==89129==ERROR: AddressSanitizer: SEGV on unknown address 0x7f0000000000 (pc 0x7f1551d38cc0 bp 0x7ffeef374ee0 sp 0x7ffeef374970 T0)
+    #0 0x7f1551d38cbf in vfprintf (/lib/x86_64-linux-gnu/libc.so.6+0x4ecbf)
+    #1 0x7f1551d39ef0  (/lib/x86_64-linux-gnu/libc.so.6+0x4fef0)
+    #2 0x7f1551d3732c in vfprintf (/lib/x86_64-linux-gnu/libc.so.6+0x4d32c)
+    #3 0x7f1551e00e45 in __vfprintf_chk (/lib/x86_64-linux-gnu/libc.so.6+0x116e45)
+    #4 0x442655 in vfprintf /usr/include/x86_64-linux-gnu/bits/stdio2.h:127
+    #5 0x442655 in message .././../src/lharc.c:725
+    #6 0x4433ae in cleanup .././../src/lharc.c:823
+    #7 0x4440cf in lha_exit .././../src/lharc.c:1461
+    #8 0x453e7d in make_table .././../src/maketbl.c:53
+    #9 0x434a32 in read_pt_len .././../src/huf.c:363
+    #10 0x434a32 in decode_c_st1 .././../src/huf.c:425
+    #11 0x4601d7 in decode .././../src/slide.c:438
+    #12 0x414ca3 in decode_lzhuf .././../src/extract.c:97
+    #13 0x44c5ff in extract_one .././../src/lhext.c:478
+    #14 0x44c5ff in cmd_extract .././../src/lhext.c:607
+    #15 0x405a6c in main .././../src/lharc.c:680
+    #16 0x7f1551d0a82f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+    #17 0x4072b8 in _start (/home/afluser/lha/lha2/lha/build/src/lha+0x4072b8)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV ??:0 vfprintf
+==89129==ABORTING

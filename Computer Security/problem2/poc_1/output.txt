@@ -1,0 +1,227 @@
+e_ident[13] is not zero
+e_ident[14] is not zero
+e_ident[15] is not zero
+unknown machine type 0
+unknown object file version
+invalid machine flags: 0x38000a
+invalid ELF header size: 64
+invalid program header size: 37
+invalid section header size: 6
+only executables, shared objects, and core files can have program headers
+cannot get program header entry 0: invalid data
+cannot get program header entry 1: invalid data
+cannot get program header entry 2: invalid data
+cannot get program header entry 3: invalid data
+cannot get program header entry 4: invalid data
+cannot get program header entry 5: invalid data
+cannot get program header entry 6: invalid data
+cannot get program header entry 7: invalid data
+cannot get program header entry 8: invalid data
+cannot get program header entry 9: invalid data
+cannot get program header entry 10: invalid data
+cannot get program header entry 11: invalid data
+cannot get program header entry 12: invalid data
+cannot get program header entry 13: invalid data
+cannot get program header entry 14: invalid data
+cannot get program header entry 15: invalid data
+cannot get program header entry 16: invalid data
+cannot get program header entry 17: invalid data
+cannot get program header entry 18: invalid data
+cannot get program header entry 19: invalid data
+cannot get program header entry 20: invalid data
+cannot get program header entry 21: invalid data
+cannot get program header entry 22: invalid data
+cannot get program header entry 23: invalid data
+cannot get program header entry 24: invalid data
+cannot get program header entry 25: invalid data
+cannot get program header entry 26: invalid data
+cannot get program header entry 27: invalid data
+cannot get program header entry 28: invalid data
+cannot get program header entry 29: invalid data
+cannot get program header entry 30: invalid data
+cannot get program header entry 31: invalid data
+cannot get program header entry 32: invalid data
+cannot get program header entry 33: invalid data
+zeroth section has nonzero name
+zeroth section has nonzero type
+zeroth section has nonzero flags
+zeroth section has nonzero address
+zeroth section has nonzero offset
+zeroth section has nonzero entry size value
+zeroth section has nonzero link value while ELF header does not signal overflow in shstrndx
+zeroth section has nonzero link value while ELF header does not signal overflow in phnum
+section [ 1]: invalid name
+section [ 1] '<invalid>': size not multiple of entry size
+cannot get section header
+section [ 1] '<invalid>' has unsupported type 112
+section [ 1] '<invalid>' contains unknown flag(s) 0x2000000
+section [ 1] '<invalid>': invalid section reference in link value
+section [ 2]: invalid name
+cannot get section header
+section [ 3]: invalid name
+cannot get section header
+section [ 3] '<invalid>' has unsupported type 68
+section [ 3] '<invalid>' contains unknown flag(s) 0x7000000
+section [ 3] '<invalid>': invalid section reference in link value
+section [ 4]: invalid name
+section [ 4] '<invalid>': size not multiple of entry size
+cannot get section header
+section [ 4] '<invalid>' has unsupported type -960051514
+section [ 4] '<invalid>' contains invalid processor-specific flag(s) 0xc0000000
+section [ 4] '<invalid>' contains unknown flag(s) 0x6c6c000
+section [ 4] '<invalid>': thread-local data sections address not zero
+section [ 4] '<invalid>': invalid section reference in link value
+section [ 4] '<invalid>': invalid section reference in info value
+section [ 4] '<invalid>': section with SHF_GROUP flag set not part of a section group
+section [ 4] '<invalid>' has unexpected type -960051514 for an executable section
+section [ 5]: invalid name
+section [ 5] '<invalid>': size not multiple of entry size
+cannot get section header
+section [ 5] '<invalid>' has unsupported type 33554432
+section [ 5] '<invalid>': ELF header says this is the section header string table but type is not SHT_TYPE
+section [ 6]: invalid name
+section [ 6] '<invalid>': size not multiple of entry size
+cannot get section header
+section [ 6] '<invalid>' has unsupported type 509607936
+section [ 6] '<invalid>': invalid section reference in link value
+section [ 6] '<invalid>': invalid section reference in info value
+section [ 7]: invalid name
+section [ 7] '<invalid>': size not multiple of entry size
+cannot get section header
+section [ 7] '<invalid>': invalid section reference in link value
+section [ 8]: invalid name
+cannot get section header
+section [ 8] '<invalid>' has unsupported type 289669120
+section [ 8] '<invalid>': invalid section reference in link value
+section [ 9]: invalid name
+cannot get section header
+section [ 9] '<invalid>' has unsupported type -445357050
+section [ 9] '<invalid>': invalid section reference in link value
+section [10]: invalid name
+cannot get section header
+section [10] '<invalid>' has unsupported type 4096
+section [11]: invalid name
+section [11] '<invalid>': size not multiple of entry size
+cannot get section header
+section [11] '<invalid>' has unsupported type 61441
+section [11] '<invalid>' contains unknown flag(s) 0x8000000
+section [12]: invalid name
+section [12] '<invalid>': size not multiple of entry size
+cannot get section header
+section [12] '<invalid>': invalid section reference in link value
+section [12] '<invalid>': nonzero sh_size for NULL section
+section [12] '<invalid>': nonzero sh_link for NULL section
+section [12] '<invalid>': nonzero sh_addralign for NULL section
+section [12] '<invalid>': nonzero sh_entsize for NULL section
+section [13]: invalid name
+section [13] '<invalid>': size not multiple of entry size
+cannot get section header
+section [13] '<invalid>' has unsupported type 12140
+section [13] '<invalid>' contains invalid processor-specific flag(s) 0x60000000
+section [13] '<invalid>' contains unknown flag(s) 0x9623000
+section [13] '<invalid>': thread-local data sections address not zero
+section [13] '<invalid>': invalid section reference in link value
+section [13] '<invalid>': section with SHF_GROUP flag set not part of a section group
+section [13] '<invalid>' has unexpected type 12140 for an executable section
+section [14]: invalid name
+cannot get section header
+section [14] '<invalid>' has unsupported type 18254
+section [14] '<invalid>' contains invalid processor-specific flag(s) 0x50000000
+section [14] '<invalid>' contains unknown flag(s) 0x5000000
+section [15]: invalid name
+cannot get section header
+section [15] '<invalid>': invalid section reference in link value
+section [15] '<invalid>': relocatable files cannot have hash tables
+section [16]: invalid name
+cannot get section header
+section [16] '<invalid>': nonzero sh_offset for NULL section
+section [16] '<invalid>': nonzero sh_size for NULL section
+section [17]: invalid name
+cannot get section header
+section [17] '<invalid>': extended section index section not for symbol table
+cannot get data for symbol section
+section [17] '<invalid>': entry size does not match Elf32_Word
+section [17] '<invalid>': extended index table too small for symbol table
+section [17] '<invalid>': cannot get section data
+section [18]: invalid name
+cannot get section header
+section [18] '<invalid>': nonzero sh_offset for NULL section
+section [18] '<invalid>': nonzero sh_size for NULL section
+section [19]: invalid name
+cannot get section header
+section [19] '<invalid>' has unsupported type 1179648
+section [20]: invalid name
+cannot get section header
+section [20] '<invalid>' contains unknown flag(s) 0x8
+section [20] '<invalid>' has unexpected type 0 for an executable section
+section [20] '<invalid>' must be of type NOBITS in debuginfo files
+section [20] '<invalid>': nonzero sh_name for NULL section
+section [20] '<invalid>': nonzero sh_flags for NULL section
+section [20] '<invalid>': nonzero sh_addr for NULL section
+section [20] '<invalid>': nonzero sh_addralign for NULL section
+section [20] '<invalid>': nonzero sh_entsize for NULL section
+section [21]: invalid name
+cannot get section header
+section [21] '<invalid>': invalid section reference in link value
+section [21] '<invalid>': nonzero sh_offset for NULL section
+section [21] '<invalid>': nonzero sh_size for NULL section
+section [21] '<invalid>': nonzero sh_link for NULL section
+section [22]: invalid name
+cannot get section header
+section [22] '<invalid>' contains unknown flag(s) 0xf008
+section [22] '<invalid>': compressed section with no compression header: invalid data
+section [22] '<invalid>': merge flag set but entry size is zero
+section [22] '<invalid>': section with SHF_GROUP flag set not part of a section group
+section [22] '<invalid>': extended section index section not for symbol table
+cannot get data for symbol section
+section [22] '<invalid>': entry size does not match Elf32_Word
+section [22] '<invalid>': sh_info not zero
+=================================================================
+==58432==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x60200000edd0 at pc 0x00000043d491 bp 0x7ffd4126d180 sp 0x7ffd4126d170
+READ of size 4 at 0x60200000edd0 thread T0
+    #0 0x43d490 in check_symtab_shndx .././../src/elflint.c:1961
+    #1 0x43d490 in check_sections .././../src/elflint.c:4114
+    #2 0x43fc3d in process_elf_file .././../src/elflint.c:4696
+    #3 0x43fc3d in process_file .././../src/elflint.c:242
+    #4 0x402dc9 in main .././../src/elflint.c:175
+    #5 0x7f32838a282f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2082f)
+    #6 0x403ab8 in _start (/home/afluser/elfutils/elfutils-0.168/build/src/elflint+0x403ab8)
+
+0x60200000edd2 is located 0 bytes to the right of 2-byte region [0x60200000edd0,0x60200000edd2)
+allocated by thread T0 here:
+    #0 0x7f3284100602 in malloc (/usr/lib/x86_64-linux-gnu/libasan.so.2+0x98602)
+    #1 0x7f3283e59e3b  (/usr/lib/x86_64-linux-gnu/libelf.so.1+0x9e3b)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow .././../src/elflint.c:1961 check_symtab_shndx
+Shadow bytes around the buggy address:
+  0x0c047fff9d60: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9d70: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9d80: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9d90: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c047fff9da0: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+=>0x0c047fff9db0: fa fa fa fa fa fa fa fa fa fa[02]fa fa fa fd fa
+  0x0c047fff9dc0: fa fa 00 01 fa fa 00 04 fa fa 00 04 fa fa 00 04
+  0x0c047fff9dd0: fa fa 00 04 fa fa 00 04 fa fa 00 04 fa fa 00 04
+  0x0c047fff9de0: fa fa 00 04 fa fa 00 04 fa fa 00 04 fa fa 00 04
+  0x0c047fff9df0: fa fa 00 04 fa fa 00 04 fa fa 00 04 fa fa fd fa
+  0x0c047fff9e00: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07
+  Heap left redzone:       fa
+  Heap right redzone:      fb
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack partial redzone:   f4
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+==58432==ABORTING

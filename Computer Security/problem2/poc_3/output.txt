@@ -1,0 +1,3 @@
+Warning: WAV 'block alignment' value is incorrect, ignoring.
+The software that created this file is incorrect.
+Floating point exception
